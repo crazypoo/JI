@@ -27,6 +27,7 @@
  ░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▀▀░░░░░░░░
  */
 #import "AppDelegate.h"
+#import "PCheckHack.h"
 
 @interface AppDelegate ()
 
@@ -37,6 +38,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    if ([PCheckHack isJailBroken]) {
+        NSLog(@"YES");
+    }
+    else
+    {
+        NSLog(@"NO");
+    }
     return YES;
 }
 

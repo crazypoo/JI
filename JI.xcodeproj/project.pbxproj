@@ -17,6 +17,7 @@
 		C0953F811A8274B80030B1F1 /* UIColor+Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = C0953F7C1A8274B80030B1F1 /* UIColor+Colours.m */; };
 		C0953F821A8274B80030B1F1 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0953F7E1A8274B80030B1F1 /* UIColor+Helper.m */; };
 		C0953F831A8274B80030B1F1 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = C0953F801A8274B80030B1F1 /* UIColor+Random.m */; };
+		C0953F881A827E030030B1F1 /* PCheckHack.m in Sources */ = {isa = PBXBuildFile; fileRef = C0953F871A827E030030B1F1 /* PCheckHack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		C0953F7F1A8274B80030B1F1 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
 		C0953F801A8274B80030B1F1 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		C0953F841A8275100030B1F1 /* JI-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JI-Prefix.pch"; sourceTree = "<group>"; };
+		C0953F861A827E030030B1F1 /* PCheckHack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCheckHack.h; sourceTree = "<group>"; };
+		C0953F871A827E030030B1F1 /* PCheckHack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCheckHack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,7 @@
 		C0953F791A8274B80030B1F1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C0953F851A827E030030B1F1 /* 越狱检测 */,
 				C0953F7A1A8274B80030B1F1 /* Color */,
 			);
 			path = Utils;
@@ -150,6 +154,15 @@
 				C0953F801A8274B80030B1F1 /* UIColor+Random.m */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		C0953F851A827E030030B1F1 /* 越狱检测 */ = {
+			isa = PBXGroup;
+			children = (
+				C0953F861A827E030030B1F1 /* PCheckHack.h */,
+				C0953F871A827E030030B1F1 /* PCheckHack.m */,
+			);
+			path = "越狱检测";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0953F881A827E030030B1F1 /* PCheckHack.m in Sources */,
 				C0953F831A8274B80030B1F1 /* UIColor+Random.m in Sources */,
 				C077FA431A82669900CC62DB /* ViewController.m in Sources */,
 				C0953F821A8274B80030B1F1 /* UIColor+Helper.m in Sources */,
