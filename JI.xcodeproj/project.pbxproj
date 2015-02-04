@@ -14,6 +14,9 @@
 		C077FA481A82669900CC62DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C077FA471A82669900CC62DB /* Images.xcassets */; };
 		C077FA4B1A82669900CC62DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C077FA491A82669900CC62DB /* LaunchScreen.xib */; };
 		C077FA571A82669900CC62DB /* JITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C077FA561A82669900CC62DB /* JITests.m */; };
+		C0953F811A8274B80030B1F1 /* UIColor+Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = C0953F7C1A8274B80030B1F1 /* UIColor+Colours.m */; };
+		C0953F821A8274B80030B1F1 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0953F7E1A8274B80030B1F1 /* UIColor+Helper.m */; };
+		C0953F831A8274B80030B1F1 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = C0953F801A8274B80030B1F1 /* UIColor+Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,13 @@
 		C077FA501A82669900CC62DB /* JITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C077FA551A82669900CC62DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C077FA561A82669900CC62DB /* JITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JITests.m; sourceTree = "<group>"; };
+		C0953F7B1A8274B80030B1F1 /* UIColor+Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colours.h"; sourceTree = "<group>"; };
+		C0953F7C1A8274B80030B1F1 /* UIColor+Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colours.m"; sourceTree = "<group>"; };
+		C0953F7D1A8274B80030B1F1 /* UIColor+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helper.h"; sourceTree = "<group>"; };
+		C0953F7E1A8274B80030B1F1 /* UIColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helper.m"; sourceTree = "<group>"; };
+		C0953F7F1A8274B80030B1F1 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		C0953F801A8274B80030B1F1 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		C0953F841A8275100030B1F1 /* JI-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JI-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 		C077FA391A82669800CC62DB /* JI */ = {
 			isa = PBXGroup;
 			children = (
+				C0953F791A8274B80030B1F1 /* Utils */,
 				C077FA3E1A82669900CC62DB /* AppDelegate.h */,
 				C077FA3F1A82669900CC62DB /* AppDelegate.m */,
 				C077FA411A82669900CC62DB /* ViewController.h */,
@@ -98,6 +109,7 @@
 			children = (
 				C077FA3B1A82669800CC62DB /* Info.plist */,
 				C077FA3C1A82669800CC62DB /* main.m */,
+				C0953F841A8275100030B1F1 /* JI-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +129,27 @@
 				C077FA551A82669900CC62DB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0953F791A8274B80030B1F1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C0953F7A1A8274B80030B1F1 /* Color */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C0953F7A1A8274B80030B1F1 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				C0953F7B1A8274B80030B1F1 /* UIColor+Colours.h */,
+				C0953F7C1A8274B80030B1F1 /* UIColor+Colours.m */,
+				C0953F7D1A8274B80030B1F1 /* UIColor+Helper.h */,
+				C0953F7E1A8274B80030B1F1 /* UIColor+Helper.m */,
+				C0953F7F1A8274B80030B1F1 /* UIColor+Random.h */,
+				C0953F801A8274B80030B1F1 /* UIColor+Random.m */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +252,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0953F831A8274B80030B1F1 /* UIColor+Random.m in Sources */,
 				C077FA431A82669900CC62DB /* ViewController.m in Sources */,
+				C0953F821A8274B80030B1F1 /* UIColor+Helper.m in Sources */,
 				C077FA401A82669900CC62DB /* AppDelegate.m in Sources */,
 				C077FA3D1A82669800CC62DB /* main.m in Sources */,
+				C0953F811A8274B80030B1F1 /* UIColor+Colours.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +381,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: JIEHAO DENG (RYR2KG82CG)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JI/JI-Prefix.pch";
 				INFOPLIST_FILE = JI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -356,6 +395,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: JIEHAO DENG (RYR2KG82CG)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JI/JI-Prefix.pch";
 				INFOPLIST_FILE = JI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -416,6 +458,7 @@
 				C077FA5C1A82669900CC62DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C077FA5D1A82669900CC62DB /* Build configuration list for PBXNativeTarget "JITests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +467,7 @@
 				C077FA5F1A82669900CC62DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

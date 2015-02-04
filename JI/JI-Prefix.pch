@@ -1,0 +1,19 @@
+//
+//  JI-Prefix.pch
+//  JI
+//
+//  Created by crazypoo on 15/2/4.
+//  Copyright (c) 2015年 crazypoo. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "UIColor+Helper.h"
+#endif
