@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D1C7627D-C205-428D-A029-5A5FDD0A0AAE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JI</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D45B3108CF478E0DF008A6980A53514D610EBC7E</key>
+		<string>https://github.com/crazypoo/JI.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JI.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D45B3108CF478E0DF008A6980A53514D610EBC7E</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/crazypoo/JI.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D45B3108CF478E0DF008A6980A53514D610EBC7E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D45B3108CF478E0DF008A6980A53514D610EBC7E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JI</string>
+		</dict>
+	</array>
+</dict>
+</plist>
